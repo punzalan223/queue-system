@@ -1,15 +1,16 @@
 <?php
 
+use Livewire\Attributes\Layout;
 use Livewire\Volt\Component;
 
-new #[Layout('layouts.app')] 
+new #[Layout('components.layouts.app')] 
 class extends Component {
     //
 }; ?>
 
 <div>
     <div class="h-dvh p-6">
-        <div class="h-full border-2 border-neutral-300 shadow rounded-2xl">
+        <div class="h-full border-2 border-neutral-300 shadow rounded-2xl overflow-hidden">
             <div class="grid grid-cols-2 h-full">
                 <!-- Left Column -->
                 <div class="border-r-2 border-neutral-300 flex flex-col">

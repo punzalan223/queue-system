@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Shippori+Mincho&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import 'tailwindcss';
@@ -9,6 +10,11 @@
 
 
 @theme {
+    --font-shippori: "Shippori Mincho", serif;
     --font-raleway: "Raleway", sans-serif;
     --font-roboto: "Roboto", sans-serif;
+
+    --color-primary: #0F1A20;
+    --color-tprimary: oklch(0.205 0 0);
+    --color-tsecondary: oklch(0.439 0 0);
 }

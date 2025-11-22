@@ -3,7 +3,5 @@
 use Illuminate\Support\Facades\Route;
 use Livewire\Volt\Volt;
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Volt::route('/queue', 'pages/queue');
+Volt::route('/', 'pages/home')->name('home');
+Volt::route('/queue', 'pages/queue')->name('queue');
