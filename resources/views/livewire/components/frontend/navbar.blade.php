@@ -35,8 +35,13 @@ new class extends Component {
             </div>
         </div>
         <div class="flex items-end font-medium">
-            <a href="">
-                <div class="text-tsecondary hover:text-primary hover:font-bold">
+            <a 
+                href="{{ route('login')}}"
+                wire:navigate
+                wire:current.exact="text-primary! font-bold"
+                class="text-tsecondary "
+            >
+                <div class="hover:text-primary hover:font-bold">
                     Sign In
                 </div>
             </a>

@@ -94,13 +94,13 @@ class extends Component {
     {{-- Trusted Companies Section --}}
     <div class="w-full border-b border-gray-300 lg:border-t">
         <div class="max-w-7xl mx-auto grid grid-cols-2 lg:grid-cols-6 items-center">
-            <div class="flex h-16 items-center justify-center lg:justify-start border-r border-t border-gray-300 lg:border-l lg:border-t-0 px-4">
+            <div class="flex h-20 items-center justify-center lg:justify-start border-r border-t border-gray-300 lg:border-l lg:border-t-0 px-4">
                 <span class="text-sm font-semibold text-tprimary">
-                    Trusted by companies shaping the future
+                    Trusted by companies shaping the future in customer experience
                 </span>
             </div>
             @foreach ($companies as $company)           
-                <div class="flex h-16 items-center justify-center border-t border-gray-300 lg:border-t-0 lg:border-r">
+                <div class="flex h-20 items-center justify-center border-t border-gray-300 lg:border-t-0 lg:border-r">
                     <img src="{{ $company['logo_url'] }}" alt="{{ $company['alt'] }}" class="h-6 w-auto">
                 </div>
             @endforeach
@@ -137,25 +137,25 @@ class extends Component {
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
                             </svg>
-                            <span>Real-time queue updates</span>
+                            <span>Real-time updates keep everyone in sync</span>
                         </div>
                         <div class="flex text-tsecondary gap-2 items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75" />
                             </svg>
-                            <span>Multi-counter management</span>
+                            <span>Manage multiple counters without losing track.</span>
                         </div>
                         <div class="flex text-tsecondary gap-2 items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Zm6-10.125a1.875 1.875 0 1 1-3.75 0 1.875 1.875 0 0 1 3.75 0Zm1.294 6.336a6.721 6.721 0 0 1-3.17.789 6.721 6.721 0 0 1-3.168-.789 3.376 3.376 0 0 1 6.338 0Z" />
                             </svg>
-                            <span>Customer Info</span>
+                            <span>Record essential customer information easily</span>
                         </div>
                         <div class="flex text-tsecondary gap-2 items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59" />
                             </svg>
-                            <span>Works on any device</span>
+                            <span>Works smoothly on any device—phones, tablets, or desktops</span>
                         </div>
                     </div>
                 </div>
