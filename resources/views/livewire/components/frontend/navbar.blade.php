@@ -12,7 +12,7 @@ new class extends Component {
             ['label' => 'Solution', 'url' => route('queue')],
             ['label' => 'Pricing', 'url' => route('queue')],
             ['label' => 'Customers', 'url' => route('queue')],
-            ['label' => 'Contact', 'url' => route('queue')],
+            ['label' => 'Contact', 'url' => route('contact')],
         ];
     }
 }; ?>
